@@ -1,6 +1,6 @@
 # Symmetric stimuli generator :butterfly:	
 
-This tool is a symmetric stimuli generator that allows you to generate symmetric images with different luminance, chromaticity, spacing and dot density conditions. Also, the generated symmetric images can be saved directly to a designated folder. This work was developed during my master thesis; please use it responsibly and ensure it fits your needs. A tutorial on how to use this application is shown on the tutorial.ipynb file
+This tool is a symmetric stimuli generator that allows you to generate random dot symmetric images with different luminance, chromaticity, spacing and dot density conditions. Also, the generated symmetric images can be saved directly to a designated folder. This work was developed during my master thesis; please use it responsibly and ensure it fits your needs. A tutorial on how to use this application is shown on the tutorial.ipynb file
 
 ## How to run it
 Execute the `symmetric_stimuli_generator.py` file, for example, with `python symmetric_stimuli_generator.py`. 
