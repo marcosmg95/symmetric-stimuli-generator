@@ -1,1 +1,1 @@
-# symmetric-stimuli-generator
+# Symmetric stimuli generator :butterfly:	
