@@ -22,4 +22,5 @@ This generator offers the following features:
 - **Block Size**: Specifies the size of each block in the symmetric signal set to be randomized, aiding in disrupting the overall signal symmetry.
 
 Some examples of these features are shown below:
-![Example of the filter visualizer application](./symmetry_images/scale_luminance.jpg)
+![Example of symmetric stimuli on a luminance scale](./symmetry_images/scale_luminance.jpg)
+![Example of symmetric stimuli on a color scale](./symmetry_images/scale_color.jpg)
