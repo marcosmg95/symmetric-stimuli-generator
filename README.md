@@ -21,6 +21,6 @@ This generator offers the following features:
 - **Adjustment Color Factor**: Allows for variations between color symmetry and asymmetry.
 - **Block Size**: Specifies the size of each block in the symmetric signal set to be randomized, aiding in disrupting the overall signal symmetry.
 
-### Some examples of these features are shown below:
+#### Some examples of these features are shown below:
 ![Example of symmetric stimuli on a luminance scale](./symmetry_images/scale_luminance.jpg)
 ![Example of symmetric stimuli on a color scale](./symmetry_images/scale_color.jpg)
