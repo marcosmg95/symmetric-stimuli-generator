@@ -20,3 +20,6 @@ This generator offers the following features:
 - **Number of Color Patterns**: Sets the color schemes used in the symmetric image, vital for generating color stimuli.
 - **Adjustment Color Factor**: Allows for variations between color symmetry and asymmetry.
 - **Block Size**: Specifies the size of each block in the symmetric signal set to be randomized, aiding in disrupting the overall signal symmetry.
+
+Some examples of these features are shown below:
+![Example of the filter visualizer application](./symmetry_images/scale_luminance.jpg)
