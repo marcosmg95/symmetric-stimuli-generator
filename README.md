@@ -24,3 +24,4 @@ This generator offers the following features:
 #### Some examples of these features are shown below:
 ![Example of symmetric stimuli on a luminance scale](./symmetry_images/scale_luminance.jpg)
 ![Example of symmetric stimuli on a color scale](./symmetry_images/scale_color.jpg)
+![Example of symmetric stimuli on a color scale](./symmetry_images/scale_dot_density.jpg)
