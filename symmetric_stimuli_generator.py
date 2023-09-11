@@ -270,23 +270,24 @@ def generate_symmetric_color_image(target_size, supersample_factor, density=0.00
 # generate_symmetric_color_image(target_size, supersample_factor, density=0.00025, kernel_size=29, min_distance=3, adjustment_factor=1.0,
 #                             num_color_patterns=2, num_axes=1, lum_value=50, max_l_channel=25):
 
-num_colors = 0
-density = 1
-max_lum = 50
-min_distance = 3
-supersample_factor = 3
+# num_colors = 0
+# density = 1
+# max_lum = 50
+# min_distance = 3
+# supersample_factor = 5
+# kernel_size = 5
+# num_axes = 4
 
 
-image_sym_1,  _ = generate_symmetric_color_image((224, 224), supersample_factor=supersample_factor, density=density, kernel_size=1, min_distance=min_distance, adjustment_factor=1,
-                                                num_color_patterns=num_colors, num_axes=4, lum_value=50, max_l_channel=max_lum)
+# image_sym_1,  _ = generate_symmetric_color_image((224, 224), supersample_factor, kernel_size=kernel_size,  adjustment_factor=1,
+#                                                 num_color_patterns=num_colors, num_axes=num_axes, lum_value=50, max_l_channel=max_lum)
 
 
-### Show image_sym_1, image_sym_2 and image_sym_4 in subplots
-image_sym_1 = Image.fromarray(image_sym_1)
-image_sym_1.save(f'./symmetry_images/symmetry_1_axis_{num_colors}_colors_{max_lum}_\
-    lum_{density}_density_{min_distance}_spacing_{supersample_factor}_supersample_factor.png')
+# ### Show image_sym_1, image_sym_2 and image_sym_4 in subplots
+# image_sym_1 = Image.fromarray(image_sym_1)
+# image_sym_1.save(f'./symmetry_images/symmetry_{num_axes}_axis_{num_colors}_colors_{max_lum}_max_lum.png')
 
-sys.exit()
+# sys.exit()
 
 
 def save_symmetric_color_images(root_folder='./symmetry_images', num_axes=2, num_colors=2, num_images=1000):
